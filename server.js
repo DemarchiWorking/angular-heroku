@@ -10,7 +10,7 @@ const app = express();
 		res.sendFile(__dirname +'/src/innclude/index.html');
     });
 	app.listen(PORT, () => {
-	console.log('servidor iniciado na porta ' + PORT);
+	console.log('servidor iniciado na portaa ' + PORT);
     })
 
 	
